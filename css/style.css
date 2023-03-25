@@ -1,7 +1,7 @@
 .logo {
-  height: 48px;
+  height: 65px;
   margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 }
 
 .first-section {
@@ -10,22 +10,23 @@
 .second-section {
   width: 44%;
   padding-left: 3rem;
+  height: 100%;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1440px;
 }
 
 .title {
-  margin-top: 2.5rem;
-  font-size: 2.4em;
+  margin-top: 3rem;
+  font-size: 2.6em;
 }
 .info {
-  font-size: 17.5px;
+  font-size: 21.1px;
 }
 .btn {
   border-radius: 30px;
-  width: 212px;
+  width: 223px;
   padding: 20px;
   font-size: 20px;
   color: var(--violet);
@@ -42,20 +43,36 @@
 
 .icons{
   justify-content: end;
+  margin-top: 50px;
 }
 
 .icon {
   border-radius: 50%;
-  border: 1px solid white;
-  width: 35px;
-  height: 35px;
+  border: 2px solid white;
+  width: 45px;
+  height: 45px;
   text-align: center;
   margin-left: 20px;
 }
 .icon > i {
-  line-height: 35px;
-  font-size: 18px;
+  line-height: 45px;
+  font-size: 22px;
 }
+
+a{
+  color: white !important;
+}
+
+
+.icon:hover{
+  border: 1px solid var(--soft-magenta);
+  color: var(--soft-magenta);
+}
+
+.icon:hover,.btn:hover{
+  cursor: pointer;
+}
+
 
 @media (min-width: 320px) and (max-width: 1200px) {
   .sm-flex-colum {
@@ -111,9 +128,6 @@
     line-height: 30px;
     font-size: 14px;
   }
-  a{
-    color: white !important;
-  }
-  
+ 
   
 }
