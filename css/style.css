@@ -1,66 +1,47 @@
-.card {
-  background: white;
-  border-radius: 15px;
-  width: 410px;
-  height: 450px;
+.logo{
+    height: 48px;
 }
-.card-header {
-  background-image: url(../images/bg-pattern-card.svg);
-  /* background-size: 100px 100px; */
-  object-fit: cover;
-  height: 165px;
-  border-radius: 15px 15px 0px 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+
+.first-section {
+  width: 56%;
 }
-.profile {
-  width: 110px;
-  position: absolute;
-  bottom: -60px;
-  border-radius: 50%;
-  border: white 5px solid;
+.second-section {
+  width: 44%;
 }
-.card-body {
-  padding: 70px 50px 0px 50px;
-  height: 100px;
-  max-height: 140px;
+
+.container {
+  max-width: 1200px;
+}
+
+.title {
+  margin-top: 2.5rem;
+  font-size: 2.4em;
+}
+.info {
+  font-size: 17.5px;
+}
+.btn {
+  border-radius: 30px;
+  width: 212px;
+  padding: 20px;
   font-size: 20px;
+  color: var(--violet);
+  border: 0;
+}
+.btn:hover{
+    background-color: var(--soft-magenta);
+    color: white;
 }
 
-h1 {
-  font-size: 20px !important;
-}
-.age {
-  margin-left: 10px;
-  font-weight: 400;
+.shadow {
+    box-shadow: 3px 7px 18px -3px rgba(0,0,0,0.75);
 }
 
-.card-footer {
-  display: flex;
-  border-top: 1px solid var(--dark-grayish-blue);
-  justify-self: center;
-  height: 85px;
-  padding: 20px 20px;
-}
-.footer-grid {
-  display: grid;
-  align-items: center;
-  grid-template-columns: 120px 120px 120px;
-}
-
-.number {
-  font-weight: 700;
-  font-size: 20px;
-}
-
-@media (min-width: 320px) and (max-width: 460px) {
-  .card {
-    width: 350px;
+@media (min-width: 320px) and (max-width: 899px) {
+  .sm-flex-colum {
+    flex-direction: column;
   }
-
-  .footer-grid {
-    grid-template-columns: 105px 105px 105px;
+  .logo-container{
+    display: none;
   }
 }
