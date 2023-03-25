@@ -43,8 +43,10 @@ body {
 }
 
 
-@media (min-width: 320px) and (max-width: 400px) {
+@media (min-width: 320px) and (max-width: 376px) {
   body{
-    background-position: -94vh  -433px, 19vh 417px;
+    background-image: url(../images/bg-mobile.svg);
+    object-fit: cover;
+    background-repeat: no-repeat;
   }
 }

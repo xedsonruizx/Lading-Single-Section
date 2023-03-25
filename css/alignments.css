@@ -41,3 +41,11 @@
 .flex-column {
   flex-direction: column;
 }
+
+
+
+@media screen and (max-width: 1199px) {
+  .text-sm-center{
+    text-align: center;
+  }
+}
